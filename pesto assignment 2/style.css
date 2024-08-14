@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+div > h1{
+    text-align: center;
+}
+
+.main-wrapper .m1{
+    display: flex;
+}
+.img-wrapper img{
+    width: 315px;
+    margin-left: 150px;
+}
+.main-wrapper .m2{
+        
+        margin-left: 45rem;
+        margin-top: -17rem;
+}
+
+.main-form{
+    margin-left: 7rem;
+}
+
