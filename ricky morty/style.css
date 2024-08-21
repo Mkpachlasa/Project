@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-navbar {
+    padding: 0 26px;
+}
+
+.main-navbar img {
+    width: 100px;
+    height: 50px;
+}
+
+.navbar-menu {
+    margin-left: 69rem;
+    margin-top: -36px;
+}
+
+.navbar-menu a {
+    margin-left: 3rem;
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-weight: 900;
+}
+
+header h1 {
+    text-align: center;
+    padding: 80px;
+    font-size: 77px;
+    font-weight: 900;
+}
+
+.main-container {
+    background-color: rgb(39, 43, 51);
+    padding: 90px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-wrapper {
+    display: flex;
+    background-color: rgb(60, 62, 68);
+    width: 600px;
+    border-radius: 6px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+}
+
+.card-image {
+    width: 220px;
+    height: 220px;
+    border-radius: 6px 0 0 6px;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.content-wrapper {
+    padding: 12px;
+    display: grid;
+
+}
+
+.content-title h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.content-title p {
+    color: white;
+}
+
+.content-stats h5 {
+    color: rgb(158, 158, 158);
+    font-size: 16px;
+}
+
+.content-stats p {
+    color: white;
+    font-size: 18px;
+}
+
+.footer-wrapper {
+    background-color: rgb(32, 35, 41);
+    padding: 72px;
+    justify-content: center;
+    /* font-size: 12px; */
+}
+
+.footer-wrapper ul {
+    color: rgb(158, 158, 158);
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    align-items: center;
+}
+
+.footer-wrapper li {
+    padding: 0 25px;
+    font-weight: 600;
+}
+.footer-status{
+    margin-top: 12px;
+}
+.footer-status a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(158, 158, 158);
+    margin-left: 40rem;
+    font-size: 18px;
+    font-weight: 600;    
+}
+.footer-developby{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-developby-1 img{
+    width: 40px;
+}
+.footer-developby-2{
+    color: rgb(158, 158, 158);
+}
+.main-develop-2{
+    display: flex;
+    margin-left: 5rem;
+}
